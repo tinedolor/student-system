@@ -8,10 +8,13 @@ $student = getStudentData();
 global $conn;
 $sql = "SELECT g.*, s.SubjectName, f.LastName as FacultyLastName 
         FROM gradetable g
-        JOIN subjecttable s ON g.SubjectId = s.SubjectId
+        JOIN subjecttable s ON g.Subjectcode = s.subjectcode
         JOIN facultytable f ON s.facultyId = f.FacultyId
         WHERE g.StudentId = ?";
 $stmt = $conn->prepare($sql);
+if ($stmt === false) {
+    die("Error preparing statement: " . $conn->error);
+}
 $stmt->bind_param("s", $studentId);
 $stmt->execute();
 $grades = $stmt->get_result()->fetch_all(MYSQLI_ASSOC);
