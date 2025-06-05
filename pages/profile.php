@@ -51,7 +51,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <nav class="navbar">
         <div class="logo">
             <i class="fas fa-graduation-cap"></i>
-            <span>Jolibog Student Management System</span>
+            <span>McPortal Student Management System</span>
         </div>
         <ul class="nav-links">
             <li><a href="dashboard.php"><i class="fas fa-home"></i> Dashboard</a></li>

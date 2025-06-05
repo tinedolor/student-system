@@ -50,7 +50,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <div class="auth-header">
                 <div class="logo">
                     <i class="fas fa-graduation-cap"></i>
-                    <span>JOLIBOG</span>
+                    <span>McPortal</span>
                 </div>
                 <h2>Student Login</h2>
                 <p>Enter your credentials to access your account</p>
