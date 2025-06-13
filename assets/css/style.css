@@ -78,7 +78,7 @@
   }
   
   .nav-links a {
-    color: var(--dark);
+    color:#1a759f;
     text-decoration: none;
     font-weight: 500;
     display: flex;
@@ -145,7 +145,7 @@
     align-items: center;
     margin-bottom: 1.5rem;
     padding-bottom: 0.75rem;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    border-bottom: 1px solid rgba(248, 248, 248, 0.05);
   }
   
   .card-title {
@@ -397,7 +397,14 @@
     }
     
     .nav-links a {
-      color: #f1f1f1;
+      color: #e0e6f0 !important;
+    }
+    
+    .card-header,
+    .card-title,
+    .announcement-content h4,
+    .announcement-date {
+      color: #e0e6f0 !important;
     }
   }
   

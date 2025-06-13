@@ -62,7 +62,7 @@ $student = getStudentData();
                     <ul class="quick-links">
                         <li><a href="academic-calendar.php"><i class="fas fa-calendar-alt"></i> Academic Calendar</a></li>
                         <li><a href="#"><i class="fas fa-book"></i> Course Materials</a></li>
-                        <li><a href="https://lyceumalabang.edu.ph/"><i class="fas fa-envelope"></i> Campus Email</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> Campus Email</a></li>
                     </ul>
                 </div>
             </aside>
