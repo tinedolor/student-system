@@ -3,7 +3,7 @@
 define('DB_HOST', 'localhost');
 define('DB_USER', 'root');
 define('DB_PASS', '');
-define('DB_NAME', 'studentdatabase');
+define('DB_NAME', 'studentdb');
 
 // Site configuration
 define('SITE_NAME', 'Student Portal');
